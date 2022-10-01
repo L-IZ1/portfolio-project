@@ -3,44 +3,45 @@
 
     font-family: 'Lato',
     sans-serif; */
+:root{
+    --branding-color:#DDAF94;
+    --second-color:#4F4846;
+    --heading-font-family:font-family: 'Arvo', serif;
 
-    h1,
-    h2,
-    .hero,
-    .hero p{
-font-font-family: "Arvo", serif;
-    }
+}
 
 h1{
-    font-size: 96 px;
+    font-size: 96px;
     font-weight: bold;
-    color: #4F4846;
 }
 .hero h2{
-    
-    color: #4F4846;
     font-size: 24px;
     font-weight: normal;
+    line-height: 2;
 }
 
 .hero{
-    
-    background-color: #DDAF94;
+    background-color: var(--branding-color);
+    font-family: var(--heading-font-family);
+    color: var(--second-color);
     text-align: center;
+    padding: 160px 20px;
+
 }
 .hero p{
-    color: #4F4846;
     font-size: 36px;
     font-weight: bold;
     margin: 0 auto;
 }
-.branding{
-    
+p{
+    font-weight: normal;
+}
+.branding{ 
     background-color:#266150;
     color: #FDF8F5;
     border-radius: 4px;
     text-decoration: none;
     font-size: 18px;
     line-height: 27px;
-    padding: 12px 20px;
+    padding: 15px 30px;
 }

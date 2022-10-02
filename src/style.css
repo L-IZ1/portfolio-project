@@ -3,16 +3,32 @@
 
     font-family: 'Lato',
     sans-serif; */
+
 :root{
     --branding-color:#DDAF94;
     --second-color:#4F4846;
-    --heading-font-family:font-family: 'Arvo', serif;
+    --heading-font-family:'Arvo', serif;
+    --body-font-family:'Lato', sans-serif;
 
+}
+
+body{
+    font-family: var(--body-font-family);
+}
+
+h1,
+h2,
+h3,
+{
+    font-weight:bold;
+    font-family:var(--heading-font-family);
 }
 
 h1{
     font-size: 96px;
-    font-weight: bold;
+}
+h2{
+    font-size: 64px;
 }
 .hero h2{
     font-size: 24px;
@@ -35,6 +51,8 @@ h1{
 }
 p{
     font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
 }
 .branding{ 
     background-color:#266150;
@@ -45,13 +63,24 @@ p{
     line-height: 27px;
     padding: 15px 30px;
 }
-@media (max-width: 900px) {
-    h1 {
-        font-size: 18px;
-        text-align: center;
-    }
 
-    .footer {
-        display: none;
+.outline {
+    background-color: #FDF8F5; 
+    color: #266150;
+    border-radius: 4px;
+    border:1px solid #266150;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.project-description{
+    padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+    .project-description {
+        padding:0;
+        text-align: center;
     }
 }

@@ -5,7 +5,7 @@
     sans-serif; */
 
 :root{
-    --branding-color:#DDAF94;
+    --branding-color:#E8CEBF;
     --second-color:#4F4846;
     --heading-font-family:'Arvo', serif;
     --body-font-family:'Lato', sans-serif;
@@ -14,6 +14,7 @@
 
 body{
     font-family: var(--body-font-family);
+    background-color: #FDF8F5;
 }
 
 h1,
@@ -54,6 +55,9 @@ p{
     font-size: 16px;
     line-height: 30px;
 }
+.featured-projects{
+    font-size: 44px;
+}
 .branding{ 
     background-color:#266150;
     color: #FDF8F5;
@@ -62,6 +66,10 @@ p{
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    margin:25px;
+}
+.branding:hover{
+    color: var(--branding-color);
 }
 
 .outline {

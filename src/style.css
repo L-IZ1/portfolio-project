@@ -13,26 +13,27 @@ body{
 
 h1,
 h2,
-h3,
-{
+h3 {
     font-weight:bold;
     font-family:var(--heading-font-family);
 }
 
-h1{
+h1 {
     font-size: 96px;
     line-height: 1.5;
 }
-h2{
+
+h2 {
     font-size: 64px;
 }
-.hero h2{
+
+.hero h2 {
     font-size: 24px;
     font-weight: normal;
     line-height: 1.5;
 }
 
-.hero{
+.hero {
     background-color: var(--branding-color);
     font-family: var(--heading-font-family);
     color: var(--second-color);
@@ -40,20 +41,24 @@ h2{
     padding: 160px 20px;
 
 }
-.hero p{
+
+.hero p {
     font-size: 36px;
     font-weight: bold;
     margin: 0 auto;
 }
-p{
+
+p {
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
 }
-.featured-projects{
+
+.featured-projects {
     font-size: 44px;
 }
-.branding{ 
+
+.branding { 
     background-color:#266150;
     color: #FDF8F5;
     border-radius: 4px;
@@ -63,7 +68,8 @@ p{
     padding: 15px 30px;
     margin:25px;
 }
-.branding:hover{
+
+.branding:hover {
     color: var(--branding-color);
 }
 
@@ -78,15 +84,16 @@ p{
     padding: 15px 30px;
     margin: 0 auto;
 }
-.project-description{
+
+.project-description {
     padding: 120px 60px;
 }
 
-.content-container{
+.content-container {
     padding: 160px 20px;
 }
 
-.content h1{
+.content h1 {
     font-size: 64px;
     line-height: 80px;
 }
@@ -96,40 +103,40 @@ p{
     line-height: 1.5;
 }
 
-.content{
+.content {
     margin: 30px;
 }
 
-.content h3{
+.content h3 {
     font-size: 24px;
     line-height: 1.5;
 }
 
-.content p{
+.content p {
     font-size: 14px;
 }
 
-.logo{
-    max-height: 50px;
+.logo {
+    max-height: 100px;
 }
 
-nav{
+nav {
     padding: 20px 0;
 }
 
-nav ul{
+nav ul {
     padding:0;
     margin: 0;
 }
 
-nav li{
+nav li {
     display: inline;
     list-style: none;
     line-height: 40px;
     margin-left: 15px;
 }
 
-nav a{
+nav a {
 text-decoration: none;
 color:#266150;
 transition: all 100ms ease-in-out;
@@ -140,22 +147,27 @@ nav li.active a {
     color: #E8CEBF;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) 
+{
     .project-description {
         padding:0;
         text-align: center;
     }
-    h1{
+
+    h1 {
         font-size:44px;
         line-height: 2;
     }
-    h2{
+
+    h2 {
         font-size:40px;
     }
-    .hero{
+
+    .hero {
         padding:80px 20px;
     }
-    .content{
+    
+    .content {
         text-align: center;
         padding: 0;
     }

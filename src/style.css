@@ -196,6 +196,15 @@ footer .contact-box {
     border-radius:10px;
 }
 
+.img-thumbnail{
+    width: 200px;
+    border: none;
+}
+
+.my-skills{
+    background-color: var(--branding-color);
+    padding: 160px 20px;
+}
 @media (max-width: 900px) 
 {
     .project-description {

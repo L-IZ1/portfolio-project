@@ -247,12 +247,16 @@ footer .contact-box {
     }
 
     h1 {
-        font-size:44px;
+        font-size:38px;
         line-height: 2;
     }
 
     h2 {
-        font-size:40px;
+        font-size:30px;
+    }
+
+    h3{
+        font-size: 24px;
     }
 
     h4 {

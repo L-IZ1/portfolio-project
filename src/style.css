@@ -99,7 +99,7 @@ p {
     transition: all 100ms ease-in-out;
 }
 
-.btn-branding-outline a:hover {
+/* .btn-branding-outline a:hover {
     background-color: #266150;
     color: var(--branding-color);
     border-radius: 4px;
@@ -109,7 +109,7 @@ p {
     line-height: 27px;
     padding: 15px 30px;
     margin: 0 auto; */
-}
+} */
 
 .img-fluid{
     border-radius: 4px;

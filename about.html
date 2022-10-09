@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    meta name="About page" content="About Elise. Elise is a front-end engineer
+    based in Germany. " />
+    <title>About Elise</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,7 +33,7 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="src/images/n-logo.png"
             class="logo d-none d-md-block my-logo"
@@ -45,16 +47,16 @@
         </a>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Elise">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Elise's work">Work</a>
           </li>
           <li class="active">
-            <a href="/about.html">About</a>
-          </li>
-          <li>
-            <a href="/work.html">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Elise">Contact</a>
           </li>
         </ul>
       </nav>
@@ -66,11 +68,15 @@
               <h2 class="mb-4">Front-end developer, based in Germany</h2>
               <p class="mb-5">
                 I started my first SheCodes workshop in June 2022 and achieved
-                two projects. To
+                two projects. I'm currently seeking new opportunities in
+                front-end development. I'm open to work remotly.
               </p>
               <div class="mt-5">
-                <a href="/work.html" class="btn btn-branding-outline"
-                  >About my work</a
+                <a
+                  href="/work.html"
+                  class="btn btn-branding-outline"
+                  title="Elise's work"
+                  >See my projects</a
                 >
               </div>
             </div>
@@ -79,12 +85,13 @@
             <img
               src="src/images/chien.jpeg"
               class="img-fluid"
+              title="my avatar"
               alt="Elise Petitjean"
             />
           </div>
         </div>
       </div>
-      <h1 class="mb-5">My skills</h1>
+      <h1 class="text-center mb-5">My skills</h1>
       <div class="container-my-skills mb-5">
         <div class="row align-items-start m-4">
           <div class="col">
@@ -92,6 +99,7 @@
               src="src/images/html.png"
               class="img-fluid img-thumbnail"
               alt="html"
+              title="html"
             />
           </div>
           <div class="col">
@@ -99,6 +107,7 @@
               src="src/images/css.png"
               class="img-fluid img-thumbnail"
               alt="css"
+              title="css"
             />
           </div>
           <div class="col">
@@ -106,6 +115,7 @@
               src="src/images/js.png"
               class="img-fluid img-thumbnail"
               alt="js"
+              title="js"
             />
           </div>
         </div>
@@ -115,6 +125,7 @@
               src="src/images/api.png"
               class="img-fluid img-thumbnail"
               alt="API"
+              title="API"
             />
           </div>
           <div class="col">
@@ -122,6 +133,7 @@
               src="src/images/github.png"
               class="img-fluid img-thumbnail"
               alt="github"
+              title="github"
             />
           </div>
           <div class="col">
@@ -129,6 +141,7 @@
               src="src/images/bootstrap.png"
               class="img-fluid img-thumbnail"
               alt="bootstrap"
+              title="bootstrap"
             />
           </div>
         </div>
@@ -138,6 +151,7 @@
               src="src/images/seo.png"
               class="img-fluid img-thumbnail"
               alt="SEO"
+              title="SEO"
             />
           </div>
           <div class="col">
@@ -145,6 +159,7 @@
               src="src/images/netlify.png"
               class="img-fluid img-thumbnail"
               alt="netlify"
+              title="netlify"
             />
           </div>
           <div class="col">
@@ -152,25 +167,28 @@
               src="src/images/flex-box.png"
               class="img-fluid img-thumbnail"
               alt="flex-box"
+              title="flex-box"
             />
           </div>
         </div>
       </div>
-      <h1 class="mb-5">My certificates</h1>
+      <h1 class="text-center mb-5">My certificates</h1>
       <div class="container d-flex justify-content-between">
         <div class="row mb-5">
-          <div class="col d-none d-lg-block mb-5">
+          <div class="col mb-5">
             <img
               src="src/images/result-basics.png"
               class="img-fluid"
               alt="certificate-SheCodes basics"
+              title="certificate SheCodes basics"
             />
           </div>
-          <div class="col d-none d-lg-block mb-5">
+          <div class="col mb-5">
             <img
               src="src/images/result.png"
               class="img-fluid"
-              alt="certificate-SheCodes basics"
+              alt="certificate-SheCodes plus"
+              title="certificate SheCodes plus"
             />
           </div>
         </div>
@@ -186,18 +204,36 @@
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:elise.petitjean@gmail.com" class="email-link"
+          <a
+            href="mailto:elise.petitjean@gmail.com"
+            class="email-link"
+            target="_blank"
             >elise.petitjean@gmail.com
           </a>
         </div>
-        <div class="d-flex justify-content-center mb-5 social-links">
-          <a href="https://www.linkedin.com/in/elisepetitjean"
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="https://www.linkedin.com/in/elisepetitjean"
+            target="_blank"
+            title="LinkedIn profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://www.github.com" target="_blank"
+          <a
+            href="https://github.com/L-IZ1"
+            target="_blank"
+            title="GitHub profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5 social-links">
+          This website was coded by Elise Petitjean, and is
+          <a
+            href="https://github.com/L-IZ1/portfolio-project"
+            target="_blank"
+            title="GitHub repository"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

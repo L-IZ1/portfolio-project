@@ -100,6 +100,10 @@ p {
     padding: 160px 20px;
 }
 
+.content-container-work {
+    padding: 60px 20px;
+}
+
 .content h1 {
     font-size: 64px;
     line-height: 80px;
